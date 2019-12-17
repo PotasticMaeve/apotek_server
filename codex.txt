@@ -1,0 +1,5 @@
+# create model
+node_modules/.bin/sequelize model:create --name User --attributes name:string,email:string,password:string,userlevel:integer
+
+# migrate the model
+node_modules/.bin/sequelize db:migrate
